@@ -7,7 +7,7 @@ Welcome to the **Olympics Data Analysis** project! This project analyzes the par
 The goal of this project is to provide an analysis of:
 - 📊 **Male and female athlete participation** over the years.
 - 🥇 **Top teams based on the number of gold medals** won.
-- 🔍 Extract useful data from MySQL and create visualizations with Python.
+- 🔍 **Extract useful data from MySQL and create visualizations with Python.**
 ![Olympics Analysis](./oly.png)
 
 
@@ -60,7 +60,7 @@ sql
 Copy code
 ```SELECT * FROM athletes LIMIT 10;```
 ### Step 4: Update the Python Script with Your Database Credentials
-Make sure to update the database connection settings in the olympics_analysis.py script to match your local MySQL setup:
+Make sure to update the database connection settings in the olympics.py script to match your local MySQL setup:
 
 python
 Copy code
@@ -75,12 +75,12 @@ Now, you're ready to run the Python script to generate the visualizations:
 
 bash
 Copy code
-```python olympics_analysis.py```
+```python olympics.py```
 The script will:
 
-*Query the database to fetch male and female participation data.
-*Visualize the top 12 teams based on gold medals.
-*Generate line plots and bar charts to present the data.
+- **Query the database to fetch male and female participation data.**
+- **Visualize the top 12 teams based on gold medals.**
+- **Generate line plots and bar charts to present the data.**
 
 # 📊 Data Visualization
 ### Male and Female Participation Over the Years

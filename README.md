@@ -29,20 +29,20 @@ The goal of this project is to provide an analysis of:
 
 ## 🚀 Setup Instructions
 
-###Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 
 ```git clone (link unavailable)```
 ```cd olympics-analysis```
 
 
-###Step 2: Install the Required Python Libraries
+### Step 2: Install the Required Python Libraries
 
 Make sure to install the required dependencies using pip:
 
 ```pip install mysql-connector-python matplotlib numpy```
 
-###Step 3: Set Up the Database
+### Step 3: Set Up the Database
 Import the Database into MySQL Workbench:
 
 Create a new database schema:
@@ -58,7 +58,7 @@ After importing, run the following query to ensure the data is imported:
 sql
 Copy code
 ```SELECT * FROM athletes LIMIT 10;```
-###Step 4: Update the Python Script with Your Database Credentials
+### Step 4: Update the Python Script with Your Database Credentials
 Make sure to update the database connection settings in the olympics_analysis.py script to match your local MySQL setup:
 
 python
@@ -69,7 +69,7 @@ Copy code
     password="your_password",
     database="olympics"
 )``
-###Step 5: Run the Python Script
+### Step 5: Run the Python Script
 Now, you're ready to run the Python script to generate the visualizations:
 
 bash
@@ -80,4 +80,11 @@ The script will:
 *Query the database to fetch male and female participation data.
 *Visualize the top 12 teams based on gold medals.
 *Generate line plots and bar charts to present the data.
+
+# 📊 Data Visualization
+## Male and Female Participation Over the Years
+This plot shows the participation trends of male and female athletes across different Olympic Games.
+
+## Top Teams by Gold Medals
+This horizontal bar chart showcases the top 12 teams with the most gold medals won in Olympic history.
 

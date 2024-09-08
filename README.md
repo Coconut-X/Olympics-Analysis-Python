@@ -8,7 +8,7 @@ The goal of this project is to provide an analysis of:
 - 📊 **Male and female athlete participation** over the years.
 - 🥇 **Top teams based on the number of gold medals** won.
 - 🔍 Extract useful data from MySQL and create visualizations with Python.
-![Olympics Analysis](./images/oly.png)
+![Olympics Analysis](./oly.png)
 
 
 ## 🛠️ Tools & Libraries

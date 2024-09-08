@@ -8,6 +8,8 @@ The goal of this project is to provide an analysis of:
 - 📊 **Male and female athlete participation** over the years.
 - 🥇 **Top teams based on the number of gold medals** won.
 - 🔍 Extract useful data from MySQL and create visualizations with Python.
+![Olympics Analysis](./images/oly.png)
+
 
 ## 🛠️ Tools & Libraries
 
@@ -32,8 +34,7 @@ The goal of this project is to provide an analysis of:
 ### Step 1: Clone the Repository
 
 
-```git clone (link unavailable)```
-```cd olympics-analysis```
+```git clone https://github.com/Coconut-X/Olympics-Analysis-Python.git```
 
 
 ### Step 2: Install the Required Python Libraries
@@ -82,9 +83,9 @@ The script will:
 *Generate line plots and bar charts to present the data.
 
 # 📊 Data Visualization
-## Male and Female Participation Over the Years
+### Male and Female Participation Over the Years
 This plot shows the participation trends of male and female athletes across different Olympic Games.
 
-## Top Teams by Gold Medals
+### Top Teams by Gold Medals
 This horizontal bar chart showcases the top 12 teams with the most gold medals won in Olympic history.
 
